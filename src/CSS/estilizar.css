@@ -1,0 +1,74 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    background-color: brown;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(63, 253, 0);
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 12px;
+    color: rgb(51, 255, 0);
+
+    
+}
+.menu1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(9, 179, 0);
+}
+.corpo{
+    margin-top: 50px;
+    text-align: center;
+}
+.img1 img{
+    width: 300px;
+    border: 3px solid rgb(9, 179, 0);
+
+}
+
+.menu ul li a{
+    border-radius: 20px;
+    margin-left: 10px;
+    color: rgb(72, 255, 0);
+    font-size: 20px;
+    transition: 0.2s;
+}
+ul li a:hover{
+    background-color: black;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.rodape p{
+    border-top: 1px solid rgb(9, 179, 0);
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+.cabecalho{
+    margin-bottom: 10px;
+}
+.fundo img{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding: auto;
+    top: 0;
+    left: 0;
+}
+.img1 img{
+    margin-top: 100px;
+}
+.prodape {
+    margin-top: 10px;
+}
+.ultimo{
+    color: red;
+}
